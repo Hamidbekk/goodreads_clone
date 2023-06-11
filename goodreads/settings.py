@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'goodreads.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'goodreads',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': 'railway',
+        'HOST': 'containers-us-west-29.railway.app',
+        'PORT': '7091',
         'USER': 'postgres',
-        'PASSWORD': 'Hamidulla-1995',
+        'PASSWORD': 'rMAZy7DTgP3H3f3vKsz7',
     }
 }
 
